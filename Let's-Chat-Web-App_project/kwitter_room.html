@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="kwitter_room.js"></script>
+        <title>Kwitter_Room</title>
+    </head>
+        
+    
+    <body>
+       <button onclick="logout()" id="logout"></button>
+       <label id="name_label">Name:</label>
+       <button   style =padding:2px ="addroom" onclick="addroomname()"></button>
+
+    </body>
+</html>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyBPYcBCSJv5TcmtuQtjdmzdRqbhtuaOHEQ",
+      authDomain: "let-s-chat-78d0f.firebaseapp.com",
+      databaseURL: "https://let-s-chat-78d0f-default-rtdb.firebaseio.com",
+      projectId: "let-s-chat-78d0f",
+      storageBucket: "let-s-chat-78d0f.appspot.com",
+      messagingSenderId: "766782098284",
+      appId: "1:766782098284:web:ffdba579ead477d610c149"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
